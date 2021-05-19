@@ -126,6 +126,10 @@ textarea {
      margin: 0;
    }
 
+   figure {
+     margin: 0;
+   }
+
    .content-wrapper {
      width: 90%;
    }
@@ -234,17 +238,11 @@ textarea {
      height: 1300px;
    }
 
-
-   img#jubilee {
+   #portfolio figure {
      border: 12px solid #d0ada7;
-   }
-
-   img#rogue {
-     border: 12px solid #d0ada7;
-   }
-
-   img#recipe {
-     border: 12px solid #d0ada7;
+     display: flex;
+     justify-content: center;
+     width: 80%;
    }
 
    .language {
@@ -259,21 +257,22 @@ textarea {
    }
 
    /***** ABOUT *****/
+
    #about {
      background-color: #D0ADA7;
-     height: 700px;
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: center;
      width: 100%;
    }
 
-
    #about p {
      font-size: 1.5em;
-     margin: 0 0 0 60px;
+     margin: 20px 60px;
    }
 
-   .resize {
-     margin: 0 0 0 120px;
-     width: 40%;
+   #about figure {
+
    }
 
 
