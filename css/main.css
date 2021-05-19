@@ -99,17 +99,15 @@ textarea {
      text-align: left;
    }
 
+   a {
+     color: #D0ADA7;
+     font-size: 1.125em;
+     text-decoration: none;
+   }
+
    ul {
      list-style-type: none;
    }
-
-   h1 {
-    color: #D0ADA7;
-    font-family: 'Roboto Slab';
-    font-size: 3.75em;
-    padding: 20px;
-    margin-top: 150px;
-  }
 
    h2 {
      font-family: 'Robo Slab';
@@ -135,37 +133,61 @@ textarea {
 
    /***** HEADER *****/
 
-   header {
-     background: url('../img/leone-venter-viem9bdzkfo-unsplash.jpg');
+   header .content-wrapper {
+     display: flex;
+     flex-flow: row wrap;
+     align-items: center;
+     justify-content: center;
+     margin: 0;
+   }
+
+   header nav {
+     display: flex;
+     justify-content: space-around;
+     flex-flow: row wrap;
+     align-items: center;
+     width: 60%;
+     margin-top: 15px;
+     text-transform: uppercase;
+   }
+
+   header nav ul {
+     display: flex;
+     justify-content: space-around;
+     width: 100%;
+     padding: 0;
+     margin: 0;
+   }
+
+
+   /***** HERO AREA *****/
+
+   .hero-area {
+     background-image: url('../img/leone-venter-viem9bdzkfo-unsplash.jpg');
      background-size: cover;
+     background-repeat: no-repeat;
      background-position: center;
-     height: 800px;
+     display: flex;
+     justify-content: flex-start;
+     flex-flow: row wrap;
+     min-height: 200px;
    }
 
-   nav {
-       float: right;
-       margin-top: 15px;
-   }
+   .hero-area h1 {
+      color: #D0ADA7;
+      font-family: 'Roboto Slab';
+      font-size: 3.75em;
+      padding: 20px;
+      margin-top: 150px;
+      margin-left: 40px;
+    }
 
-   nav ul li{
-       display: inline-block;
-   }
-
-   nav ul li a {
-       color: #D0ADA7;
-       font-size: 1.125em;
-       padding-left: 80px;
-       text-decoration: none;
-       text-transform: uppercase;
-   }
-
-   header p {
-     font-size: 2.875em;
-     float: left;
-     padding: 0 20px;
-     margin-top: 20px;
-   }
-
+    .hero-area p {
+      font-size: 2.875em;
+      padding: 0 20px;
+      margin-top: 20px;
+      margin-left: 40px;
+    }
 
    /***** PORTFOILIO *****/
 
@@ -221,6 +243,7 @@ textarea {
    footer {
      background-color: #AD6A6C;
      height: 450px;
+     width: 100%;
    }
 
    footer p {
@@ -243,7 +266,6 @@ textarea {
    }
 
    .copyright {
-     clear: both;
      text-align: center;
    }
 
