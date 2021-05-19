@@ -95,27 +95,43 @@ textarea {
    body {
      color: #5d2e46;
      font-family: 'Roboto', sans-serif;
+     font-size: 1em;
+     text-align: left;
    }
 
-   .full-width {
-     margin: 0 auto;
-     overflow: auto;
-     width: 1200px;
+   ul {
+     list-style-type: none;
    }
 
-   .half-width {
-     height: 350px;
-     width: 49%;
+   h1 {
+    color: #D0ADA7;
+    font-family: 'Roboto Slab';
+    font-size: 3.75em;
+    padding: 20px;
+    margin-top: 150px;
+  }
+
+   h2 {
+     font-family: 'Robo Slab';
+     font-size: 2.25em;
    }
 
-   .third-width {
-     height: 250px;
-     width: 33.3%
+   h3 {
+     font-size: 1.5em;
+     padding: 0 0 10px 38px;
+     margin: 0;
    }
 
-   .about-width {
-     width: 49%;
+   h4 {
+     font-size: 1.5em;
+     text-align: center;
+     margin: 0;
    }
+
+   .content-wrapper {
+     width: 90%;
+   }
+
 
    /***** HEADER *****/
 
@@ -143,14 +159,6 @@ textarea {
        text-transform: uppercase;
    }
 
-   header h1 {
-     color: #D0ADA7;
-     font-family: 'Roboto Slab';
-     font-size: 60px;
-     padding: 20px;
-     margin-top: 150px;
-   }
-
    header p {
      font-size: 46px;
      float: left;
@@ -165,12 +173,6 @@ textarea {
      height: 1300px;
    }
 
-   #portfolio h2 {
-     font-family: 'Roboto Slab';
-     font-size: 36px;
-     text-align: center;
-     margin: 30px 0 90px 0;
-   }
 
    img#jubilee {
      border: 12px solid #d0ada7;
@@ -184,20 +186,14 @@ textarea {
      border: 12px solid #d0ada7;
    }
 
-   #portfolio h3 {
-     font-size: 24px;
-     padding: 0 0 10px 38px;
-     margin: 0;
-   }
-
-   .language{
-     font-size: 24px;
+   .language {
+     font-size: 1.5em;
      padding: 0 0 0 38px;
      margin: 0px;
    }
 
    #portfolio p {
-     font-size: 24px;
+     font-size: 1.5em;
      padding: 0 0 0 38px;
    }
 
@@ -207,21 +203,15 @@ textarea {
      height: 700px;
    }
 
-   #about h2 {
-     font-family: 'Roboto Slab';
-     font-size: 36px;
-     text-align: center;
-     margin: 30px 0 90px 0;
-   }
 
    #about p {
-     font-size: 24px;
+     font-size: 1.5em;
      margin: 0 0 0 60px;
    }
 
    .resize {
      margin: 0 0 0 120px;
-     width: 350px;
+     width: 40%;
    }
 
 
@@ -230,19 +220,6 @@ textarea {
    footer {
      background-color: #AD6A6C;
      height: 450px;
-   }
-
-   footer h2 {
-     font-family: 'Roboto Slab';
-     font-size: 36px;
-     text-align: center;
-     margin: 30px 0 90px 0;
-   }
-
-   footer h4 {
-     font-size: 24px;
-     text-align: center;
-     margin: 0;
    }
 
    footer p {
