@@ -153,14 +153,14 @@ textarea {
 
    nav ul li a {
        color: #D0ADA7;
-       font-size: 18px;
+       font-size: 1.125em;
        padding-left: 80px;
        text-decoration: none;
        text-transform: uppercase;
    }
 
    header p {
-     font-size: 46px;
+     font-size: 2.875em;
      float: left;
      padding: 0 20px;
      margin-top: 20px;
@@ -201,6 +201,7 @@ textarea {
    #about {
      background-color: #D0ADA7;
      height: 700px;
+     width: 100%;
    }
 
 
