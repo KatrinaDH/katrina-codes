@@ -126,9 +126,13 @@ textarea {
      margin: 0;
    }
 
-   figure {
-     margin: 0;
-   }
+   img {
+	   width: 100%;
+  }
+
+  figure {
+    margin: 0;
+  }
 
    .content-wrapper {
      width: 90%;
@@ -211,9 +215,11 @@ textarea {
      background-repeat: no-repeat;
      background-position: center;
      display: flex;
-     justify-content: flex-start;
+     justify-content: center;
+     align-items: center;
      flex-flow: row wrap;
-     min-height: 200px;
+     min-height: 700px;
+     width: 100%;
    }
 
    .hero-area h1 {
@@ -235,7 +241,7 @@ textarea {
    /***** PORTFOILIO *****/
 
    #portfolio {
-     height: 1300px;
+     height: 1400px;
    }
 
    #portfolio figure {
@@ -263,16 +269,25 @@ textarea {
      display: flex;
      flex-flow: row wrap;
      justify-content: center;
-     width: 100%;
    }
 
    #about p {
      font-size: 1.5em;
      margin: 20px 60px;
+     text-align: center;
+   }
+
+   #about h2 {
+     text-align: center;
    }
 
    #about figure {
-
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+     width: 80%;
+     margin-left: 40px;
    }
 
 
