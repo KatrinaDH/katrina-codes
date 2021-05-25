@@ -212,16 +212,16 @@ textarea {
 
    /***** HERO AREA *****/
 
-   .hero-area {
-     background-image: url('../img/leone-venter-viem9bdzkfo-unsplash.jpg');
-     background-size: cover;
-     background-repeat: no-repeat;
-     background-position: center;
+   .hero-area .contact-wrapper {
+     position: relative;
+     text-align: center;
+   }
+
+   .hero-area figure{
      display: flex;
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
-     min-height: 700px;
      width: 100%;
    }
 
@@ -231,13 +231,16 @@ textarea {
       font-size: 3.75em;
       padding: 20px;
       margin: 40px;
+      position: absolute;
+      font-size: 1.5em
     }
 
     .hero-area p {
       font-size: 2.875em;
       padding: 0 20px;
-      margin-top: 20px;
-      margin-left: 40px;
+      margin: 20px;
+      position: absolute;
+      font-size: 1em;
     }
 
    /***** PORTFOILIO *****/
