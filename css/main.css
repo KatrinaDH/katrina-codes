@@ -148,7 +148,6 @@ textarea {
        flex-flow: row wrap;
    }
 
-
    header nav {
      display: flex;
      justify-content: space-around;
@@ -167,16 +166,19 @@ textarea {
      margin: 0;
    }
 
-   header nav ul a {
-     padding: 5px;
-   }
 
    footer {
      text-align: center;
+     flex-direction: column;
+     min-height: 450px;
    }
 
    footer p {
      margin: 0;
+   }
+
+   footer .connect {
+     margin-top: 20px;
    }
 
    footer .content-wrapper {
@@ -186,12 +188,11 @@ textarea {
 
    #contact a {
      color: inherit;
-     padding-left: 110px;
      text-decoration: none;
     }
 
    #linkedin {
-     padding: 20px 0 0 0;
+     padding: 20px 20px 0 0;
     }
 
    #github {
