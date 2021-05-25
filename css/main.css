@@ -148,13 +148,6 @@ textarea {
        flex-flow: row wrap;
    }
 
-   header .content-wrapper {
-     display: flex;
-     flex-flow: row wrap;
-     align-items: center;
-     justify-content: center;
-     margin: 0;
-   }
 
    header nav {
      display: flex;
@@ -214,7 +207,6 @@ textarea {
 
    .hero-area .contact-wrapper {
      position: relative;
-     text-align: center;
    }
 
    .hero-area figure{
@@ -228,18 +220,15 @@ textarea {
    .hero-area h1 {
       color: #D0ADA7;
       font-family: 'Roboto Slab';
-      font-size: 3.75em;
       padding: 20px;
-      margin: 40px;
+      margin: 0 40px 40px 0;
       position: absolute;
       font-size: 1.5em
     }
 
     .hero-area p {
-      font-size: 2.875em;
       padding: 0 20px;
-      margin: 20px;
-      position: absolute;
+      margin: 20px 0;
       font-size: 1em;
     }
 
