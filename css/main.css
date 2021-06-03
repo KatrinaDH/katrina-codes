@@ -228,8 +228,6 @@ textarea {
     }
 
     .hero-area p {
-      padding: 0 20px;
-      margin: 20px 0;
       font-size: 1em;
     }
 
@@ -244,9 +242,11 @@ textarea {
      display: flex;
      justify-content: center;
      align-items: center;
-     max-width: 97%;
-     padding:2%;
-     background: #d0ada7
+     border: 3px solid #D0ADA7;
+     width: 100%;
+     height: auto;
+     max-width: 90%;
+     margin-left: 15px;
    }
 
    .language {
