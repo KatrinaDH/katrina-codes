@@ -149,10 +149,6 @@ textarea {
    }
 
    header nav {
-     display: flex;
-     justify-content: space-around;
-     flex-flow: row wrap;
-     align-items: center;
      width: 60%;
      margin-top: 15px;
      text-transform: uppercase;
@@ -160,10 +156,13 @@ textarea {
 
    header nav ul {
      display: flex;
-     justify-content: space-around;
      width: 100%;
      padding: 0;
      margin: 0;
+   }
+
+   header nav ul li {
+     padding: 10px;
    }
 
 
@@ -234,7 +233,7 @@ textarea {
    /***** PORTFOILIO *****/
 
    #portfolio {
-     height: 1500px;
+     height: 1450px;
      text-align: center;
    }
 
@@ -383,9 +382,25 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-}
+@media only screen and (min-width: 768px) {
+      /*Tablet styles here*/
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1200px) {
+       /*Desktop styles here*/
+
+
+
+
+
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
