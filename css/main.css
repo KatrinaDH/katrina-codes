@@ -401,19 +401,26 @@ textarea {
 /***** General Style *****/
 
 h1 {
-  font-size: 2em;
+  font-size: 2.25em;
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 2.25em;
 }
 
 h3 {
+  font-size: 2em;
+}
+
+h4 {
+   font-size: 1.75em;
+ }
+
+p {
   font-size: 1.75em;
 }
- h4 {
-   font-size: 1.5em;
- }
+
+
 
 /***** Header/Footer *****/
 
@@ -427,9 +434,12 @@ header nav {
 
 /***** Hero Area ****/
 
+.hero-area h1 {
+  margin-bottom: 80px;
+}
+
 .hero-area h4 {
   bottom: 100px;
-  margin-left: 25px;
 }
 
 /***** PORTFOILIO *****/
@@ -443,10 +453,16 @@ header nav {
   margin-left: 100px;
 }
 
+#portfolio .project-item-description {
+  margin-bottom: 30px;
+}
 
  /***** ABOUT *****/
 
+#about figure {
+  margin: 0 0 40px 80px;
 
+}
 
 
 @media only screen and (min-width: 1200px) {
