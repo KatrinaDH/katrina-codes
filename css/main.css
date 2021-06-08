@@ -432,6 +432,18 @@ header nav {
   padding-right: 20px;
 }
 
+footer .contact-wrapper {
+  width: 85%;
+}
+
+footer .footer-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+
 /***** Hero Area ****/
 
 .hero-area h1 {
@@ -450,11 +462,11 @@ header nav {
 
 #portfolio figure {
   max-width: 70%;
-  margin-left: 100px;
+  margin-left: 110px;
 }
 
 #portfolio .project-item-description {
-  margin-bottom: 30px;
+  margin: 30px 10px;
 }
 
  /***** ABOUT *****/
@@ -467,9 +479,81 @@ header nav {
 
 @media only screen and (min-width: 1200px) {
        /*Desktop styles here*/
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2.25em;
+}
+
+h4 {
+  font-size: 2.5em;
+}
+
+ p {
+   font-size: 1.75em;
+}
+
+a {
+  font-size: 1.5em;
+}
+
+/***** Header-Footer Styles *****/
 
 
 
+/***** Hero-Area *****/
+
+.hero-area h1 {
+  margin-bottom: 200px;
+  margin-left: 20px;
+}
+
+.hero-area h4 {
+  margin-bottom: 100px;
+  margin-left:20px;
+}
+
+
+
+/***** PORTFOILIO *****/
+
+#portfolio {
+    height: 1800px;
+}
+
+#portfolio figure {
+  max-width: 45%;
+}
+
+
+/***** ABOUT *****/
+
+#about article{
+  display:flex;
+}
+
+#about article figure,
+#about article div {
+  width: 49%;
+}
+
+#about article div {
+  margin-bottom: 50px;
+}
+
+#about article figure {
+  margin: 0 10px 40px 40px;
+}
+
+#about figure {
+  max-width: 40%
+}
 
 
 
