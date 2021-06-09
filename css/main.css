@@ -135,7 +135,7 @@ textarea {
    }
 
    img {
-	   width: 100%;
+	  width: 100%;
   }
 
   figure {
@@ -500,7 +500,7 @@ h4 {
 }
 
 a {
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 /***** Header-Footer Styles *****/
@@ -524,7 +524,7 @@ a {
 /***** PORTFOILIO *****/
 
 #portfolio {
-  height: 1800px;
+  height: 1500px;
 }
 
 #portfolio h2 {
@@ -537,9 +537,10 @@ a {
   margin: 60px;
 }
 
+
 #portfolio .contact-wrapper {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 
