@@ -433,14 +433,14 @@ header nav {
 }
 
 footer .contact-wrapper {
-  width: 85%;
-}
-
-footer .footer-content{
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+}
+
+footer .copyright {
+  width: 100%;
 }
 
 
@@ -456,8 +456,8 @@ footer .footer-content{
 
 /***** PORTFOILIO *****/
 #portfolio {
-    height: 1650px;
-    text-align: center;
+  height: 1650px;
+  text-align: center;
 }
 
 #portfolio figure {
@@ -515,7 +515,7 @@ a {
 }
 
 .hero-area h4 {
-  margin-bottom: 100px;
+  margin-bottom: 140px;
   margin-left:20px;
 }
 
@@ -524,12 +524,25 @@ a {
 /***** PORTFOILIO *****/
 
 #portfolio {
-    height: 1800px;
+  height: 1800px;
 }
 
-#portfolio figure {
-  max-width: 45%;
+#portfolio h2 {
+  text-align: center;
 }
+
+#portfolio figure,
+#portfolio .project-item {
+  width: 38%;
+  margin: 60px;
+}
+
+#portfolio .contact-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
 
 
 /***** ABOUT *****/
@@ -548,7 +561,7 @@ a {
 }
 
 #about article figure {
-  margin: 0 10px 40px 40px;
+  margin: 0 10px 60px 100px;
 }
 
 #about figure {
