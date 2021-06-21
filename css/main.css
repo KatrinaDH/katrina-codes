@@ -434,13 +434,25 @@ header nav {
 
 footer .contact-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-direction: row;
+  text-align: center;
 }
 
-footer .copyright {
+footer .footer-content {
+  position: relative;
+}
+
+.copyright {
   width: 100%;
+  position: absolute;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+footer p {
+  font-size: 1.25em;
 }
 
 
@@ -504,24 +516,19 @@ a {
 }
 
 /***** Header-Footer Styles *****/
-
-footer .contact-wrapper .connect{
-  margin: 5px 60px;
-}
-
-footer .footer-content {
-  position: relative;
-}
-
 footer .connect p{
-  margin-top: 5px;
+  margin-top:5px;
+  font-size: 1.25em;
 }
 
-footer .copyright {
-  position: absolute;
-  margin-top: 50px;
-  margin-bottom: 0;
+footer .connect {
+  margin-right: 100px;
 }
+
+.copyright {
+  margin-top: 40px;
+}
+
 /***** Hero-Area *****/
 
 .hero-area h1 {
