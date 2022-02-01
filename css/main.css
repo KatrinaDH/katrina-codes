@@ -304,6 +304,11 @@ textarea {
      margin-left: 40px;
    }
 
+   #about figure img {
+     width: 350px;
+     border-radius: 50%;
+   }
+
 
 
 
