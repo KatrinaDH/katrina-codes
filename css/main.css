@@ -249,33 +249,56 @@ textarea {
      text-align: center;
    }
 
-   #portfolio figure {
+   .gallery{
      display: flex;
-     justify-content: center;
-     align-items: center;
-     border: 3px solid #D0ADA7;
+     flex-wrap: wrap;
+   }
+
+   .gallery-image {
+     display: block;
      width: 100%;
-     height: auto;
-     max-width: 90%;
-     margin-left: 15px;
+     height: 100%;
+     object-fit: cover;
    }
 
-   .language {
-     padding: 0 0 0 38px;
-     margin: 0px;
-   }
+   @supports (display: grid) {
+ .gallery{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(34rem, 1fr));
+  grid-gap: 2rem;
+ }
+ .gallery,
+ .portfolio-item{
+  margin: 50px;
+ }
+}
+  .img__wrap {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
 
-   #portfolio h3 {
-     padding: 20px;
-   }
+  .img__description {
+    position:absolute;
+    width: 100%;
+    border: none;
+    height: 100%;
+    opacity: 0.5;
+    line-height: 400px;
+    text-align: center;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: opacity .2s, visibility .2s;
+  }
+  .img__wrap:hover .img__description {
+    visibility: visible;
+    opacity: 10;
+  }
 
-   #portfolio p {
-     padding: 0;
-   }
 
-   #portfolio .project-item-description {
-     margin: 20px 5px;
-   }
 
    /***** ABOUT *****/
 
