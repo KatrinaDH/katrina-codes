@@ -245,7 +245,7 @@ textarea {
    /***** PORTFOILIO *****/
 
    #portfolio {
-     height: 1450px;
+     height: auto;
      text-align: center;
    }
 
@@ -502,7 +502,7 @@ footer p {
 
 /***** PORTFOILIO *****/
 #portfolio {
-  height: 1650px;
+  height: auto;
   text-align: center;
 }
 
@@ -580,7 +580,7 @@ footer .connect {
 /***** PORTFOILIO *****/
 
 #portfolio {
-  height: 1450px;
+  height: auto;
 }
 
 #portfolio h2 {
