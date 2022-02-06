@@ -229,7 +229,7 @@ textarea {
    .hero-area h1 {
       color: #D0ADA7;
       font-family: 'Roboto Slab';
-      padding: 20px 20px 0 0;
+      padding: 20px 20px 20px 0;
       margin: 0 40px 40px 0;
       position: absolute;
       left: 16px;
@@ -270,12 +270,12 @@ textarea {
    @supports (display: grid) {
  .gallery{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(34rem, 1fr));
-  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 1rem;
  }
  .gallery,
  .portfolio-item{
-  margin: 50px;
+  margin: 30px;
  }
 }
   .img__wrap {
@@ -601,6 +601,17 @@ footer .connect {
   align-items: center;
 }
 
+@supports (display: grid) {
+.gallery{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+grid-gap: 1.5rem;
+}
+.gallery,
+.portfolio-item{
+margin: 40px;
+}
+}
 
 
 /***** ABOUT *****/
