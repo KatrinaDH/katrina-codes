@@ -41,14 +41,7 @@ html {
  * A better looking default horizontal rule
  */
 
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
-}
+
 
 /*
  * Remove the gap between audio, canvas, iframes,
@@ -146,11 +139,18 @@ textarea {
      width: 90%;
    }
 
+ hr {
+   width: 80%;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   border-top: 1px dashed #5d2e46;
+ }
 
    /***** HEADER-FOOTER STYLES *****/
    header,
    footer {
-       background-color: #AD6A6C;
+       background-color: #D0ADA7;
        display: flex;
        justify-content: center;
        flex-flow: row wrap;
@@ -304,12 +304,35 @@ textarea {
     opacity: 10;
   }
 
+  /**** Skills ****/
 
+  #skills h2 {
+    text-align:center;
+
+  }
+
+  #skills {
+    margin: 75px;
+  }
+
+  .tools {
+    padding: 0 20px 20px 20px;
+  }
+
+  .tools ul {
+    text-align: center;
+    padding-left: 0px;
+  }
+
+  .tools li {
+    display: inline;
+    padding: .2em;
+    font-size: 1.25em;
+  }
 
    /***** ABOUT *****/
 
    #about {
-     background-color: #D0ADA7;
      display: flex;
      flex-flow: row wrap;
      justify-content: center;
@@ -611,6 +634,12 @@ grid-gap: 1.5rem;
 .portfolio-item{
 margin: 40px;
 }
+}
+
+/***Skills***/
+
+#skills {
+  margin: 75px 200px;
 }
 
 
