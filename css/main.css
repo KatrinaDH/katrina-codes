@@ -257,11 +257,6 @@ textarea {
      margin-bottom: 0px;
    }
 
-   .gallery{
-     display: flex;
-     flex-wrap: wrap;
-   }
-
 
    .gallery-image {
      display: block;
@@ -279,7 +274,7 @@ textarea {
  }
  .gallery,
  .portfolio-item{
-  margin: 30px;
+  margin: 50px 20px;;
  }
 }
   .img__wrap {
