@@ -230,9 +230,10 @@ textarea {
       color: #AD6A6C;
       font-family: 'Roboto Slab';
       padding: 20px 20px 20px 0;
-      margin: 0 40px 40px 0;
+      margin: 0 40px 0 0;
       position: absolute;
       left: 16px;
+      line-height: 1em;
     }
 
     .hero-area h4 {
@@ -240,6 +241,8 @@ textarea {
       position: absolute;
       bottom: 8px;
       left: 16px;
+      margin-bottom: 20px;
+      line-height: 1em;
     }
 
    /***** PORTFOILIO *****/
@@ -522,6 +525,7 @@ footer p {
 
 .hero-area h4 {
   bottom: 100px;
+  margin-bottom: 60px;
 }
 
 /***** PORTFOILIO *****/
@@ -590,7 +594,7 @@ footer .connect {
 /***** Hero-Area *****/
 
 .hero-area h1 {
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   margin-left: 20px;
 }
 
