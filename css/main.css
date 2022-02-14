@@ -118,13 +118,15 @@ textarea {
    }
 
    h4 {
-     font-size: 1em;
+     font-size: 1.25rem;
      text-align: center;
+     padding-top: 5px;
      margin: 0;
+     font-weight: normal;
    }
 
    p {
-     font-size: 1.25em;
+     font-size: 1.2rem;
    }
 
    img {
@@ -278,49 +280,14 @@ textarea {
 
 
    .gallery-image {
-     display: block;
-     width: 100%;
-     height: 100%;
-     object-fit: cover;
+     width: 70%;
+     height: auto;
      border-radius: 30px;
    }
 
-   @supports (display: grid) {
- .gallery{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-  grid-gap: 1rem;
- }
- .gallery,
- .portfolio-item{
-  margin: 50px 20px;;
- }
-}
-  .img__wrap {
-    position: relative;
-    height: 100%;
-    width: 100%;
-  }
-
-  .img__description {
-    position:absolute;
-    width: 100%;
-    border: none;
-    height: 100%;
-    opacity: .01;
-    line-height: 400px;
-    text-align: center;
-    background-color: white;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    transition: opacity .2s, visibility .2s;
-  }
-  .img__wrap:hover .img__description {
-    visibility: visible;
-    opacity: 10;
-  }
+   .gallery p {
+     padding: 10px 40px;
+   }
 
   /**** Skills ****/
 
