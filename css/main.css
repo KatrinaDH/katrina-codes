@@ -108,7 +108,7 @@ textarea {
 
    h2 {
      font-family: 'Robo Slab';
-     font-size: 1.25em;
+     font-size: 1.3rem;
    }
 
    h3 {
@@ -126,7 +126,7 @@ textarea {
    }
 
    p {
-     font-size: 1.2rem;
+     font-size: 1rem;
    }
 
    img {
@@ -278,15 +278,15 @@ textarea {
      margin-bottom: 0px;
    }
 
-
    .gallery-image {
      width: 70%;
      height: auto;
      border-radius: 30px;
+     margin: 10px 0px;
    }
 
    .gallery p {
-     padding: 10px 40px;
+     padding: 0 40px 10px 40px;
    }
 
   /**** Skills ****/
@@ -610,17 +610,6 @@ footer .connect {
   align-items: center;
 }
 
-@supports (display: grid) {
-.gallery{
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
-grid-gap: 1.5rem;
-}
-.gallery,
-.portfolio-item{
-margin: 40px;
-}
-}
 
 /***Skills***/
 
