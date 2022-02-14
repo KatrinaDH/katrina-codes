@@ -282,7 +282,7 @@ textarea {
    }
 
    .gallery-image {
-     width: 70%;
+     width: 90%;
      height: auto;
      border-radius: 30px;
      margin: 10px 0px;
@@ -298,6 +298,11 @@ textarea {
       justify-content: center;
       align-items: flex-start;
       flex-flow: row wrap;
+   }
+
+   #portfolio figure {
+     max-width: 70%;
+     margin-left: 50px;
    }
 
 
@@ -528,17 +533,12 @@ footer p {
   text-align: center;
 }
 
-#portfolio figure {
-  max-width: 70%;
-  margin-left: 110px;
+.gallery-image {
+  margin-left: 70px;
 }
 
 .gallery p {
   padding: 0 80px;
-}
-
-.gallery {
-  justify-content: space-around;
 }
 
  /***** ABOUT *****/
@@ -623,7 +623,8 @@ footer .connect {
 }
 
 .gallery-image {
-  margin: 30px 0px;
+  margin: 30px 0 30px 20px;
+  width: 100%;
 }
 
 hr {
