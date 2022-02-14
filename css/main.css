@@ -194,6 +194,9 @@ textarea {
      padding: 10px;
    }
 
+   nav a:hover {
+     color: #fff;
+   }
 
    footer {
      text-align: center;
@@ -283,11 +286,20 @@ textarea {
      height: auto;
      border-radius: 30px;
      margin: 10px 0px;
+     filter: drop-shadow(1px 2px 6px lightgrey);
    }
 
    .gallery p {
      padding: 0 40px 10px 40px;
    }
+
+   .gallery {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-flow: row wrap;
+   }
+
 
   /**** Skills ****/
 
@@ -342,7 +354,7 @@ textarea {
    }
 
    #about figure img {
-     width: 350px;
+     width: 300px;
      border-radius: 30px;
    }
 
@@ -459,7 +471,7 @@ h4 {
  }
 
 p {
-  font-size: 1.75em;
+  font-size: 1em;
 }
 
 
@@ -507,6 +519,7 @@ footer p {
 .hero-area h4 {
   bottom: 100px;
   margin-bottom: 60px;
+  margin-right: 180px;
 }
 
 /***** PORTFOILIO *****/
@@ -520,17 +533,23 @@ footer p {
   margin-left: 110px;
 }
 
-#portfolio .project-item-description {
-  margin: 30px 10px;
+.gallery p {
+  padding: 0 80px;
+}
+
+.gallery {
+  justify-content: space-around;
 }
 
  /***** ABOUT *****/
 
 #about figure {
   margin: 0 0 40px 80px;
-
 }
 
+#about p {
+  font-size: 1.75em;
+}
 
 @media only screen and (min-width: 1200px) {
        /*Desktop styles here*/
@@ -547,11 +566,12 @@ h3 {
 }
 
 h4 {
-  font-size: 2.5em;
+  font-size: 1.75rem;
 }
 
  p {
-   font-size: 1.5em;
+   font-size: 1.25rem;
+   font-weight: normal;
 }
 
 a {
@@ -580,8 +600,10 @@ footer .connect {
 }
 
 .hero-area h4 {
-  margin-bottom: 160px;
+  margin-bottom: 220px;
   margin-left:20px;
+  margin-right: 300px;
+  font-size: 3rem;
 }
 
 
@@ -596,21 +618,17 @@ footer .connect {
   text-align: center;
 }
 
-#portfolio figure,
-#portfolio .project-item {
-  width: 38%;
-  margin: 60px 60px 60px 90px;
+.portfolio-item {
+  width: 30%;
 }
 
-
-#portfolio .contact-wrapper {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
+.gallery-image {
+  margin: 30px 0px;
 }
 
-
+hr {
+  margin-top: 30px;
+}
 /***Skills***/
 
 #skills {
@@ -639,6 +657,10 @@ footer .connect {
 
 #about figure {
   max-width: 40%
+}
+
+#about p {
+  font-size: 1.25rem;
 }
 
 
