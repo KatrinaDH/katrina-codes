@@ -338,3 +338,219 @@ textarea {
      width: 300px;
      border-radius: 30px;
    }
+
+   /* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 768px) {
+      /*Tablet styles here*/
+
+/***** General Style *****/
+
+h1 {
+  font-size: 2.25em;
+}
+
+h2 {
+  font-size: 2.25em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h4 {
+   font-size: 1.75em;
+ }
+
+p {
+  font-size: 1em;
+}
+
+
+
+/***** Header/Footer *****/
+
+header {
+  justify-content: flex-end;
+}
+
+header nav {
+  padding-right: 20px;
+}
+
+footer .contact-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+}
+
+footer .footer-content {
+  position: relative;
+}
+
+.copyright {
+  width: 100%;
+  position: absolute;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+footer p {
+  font-size: 1.25em;
+}
+
+
+/***** Hero Area ****/
+
+.hero-area h1 {
+  margin-bottom: 80px;
+}
+
+.hero-area h4 {
+  bottom: 100px;
+  margin-bottom: 60px;
+  margin-right: 180px;
+}
+
+/***** PORTFOILIO *****/
+#portfolio {
+  height: auto;
+  text-align: center;
+}
+
+.gallery-image {
+  margin-left: 70px;
+}
+
+.gallery p {
+  padding: 0 80px;
+}
+
+ /***** ABOUT *****/
+
+#about figure {
+  margin: 0 0 40px 80px;
+}
+
+#about p {
+  font-size: 1.75em;
+}
+
+@media only screen and (min-width: 1200px) {
+       /*Desktop styles here*/
+h1 {
+  font-size: 4.25em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2.25em;
+}
+
+h4 {
+  font-size: 1.75rem;
+}
+
+ p {
+   font-size: 1.25rem;
+   font-weight: normal;
+}
+
+a {
+  font-size: 1.25em;
+}
+
+/***** Header-Footer Styles *****/
+footer .connect p{
+  margin-top:5px;
+  font-size: 1.25em;
+}
+
+footer .connect {
+  margin-right: 100px;
+}
+
+.copyright {
+  margin-top: 40px;
+}
+
+/***** Hero-Area *****/
+
+.hero-area h1 {
+  margin-bottom: 100px;
+  margin-left: 20px;
+}
+
+.hero-area h4 {
+  margin-bottom: 190px;
+  margin-left:20px;
+  margin-right: 300px;
+  font-size: 3rem;
+}
+
+
+
+/***** PORTFOILIO *****/
+
+#portfolio {
+  height: auto;
+}
+
+#portfolio h2 {
+  text-align: center;
+}
+
+.portfolio-item {
+  width: 30%;
+}
+
+.gallery-image {
+  margin: 30px 0 30px 20px;
+  width: 100%;
+}
+
+hr {
+  margin-top: 30px;
+}
+/***Skills***/
+
+#skills {
+  margin: 75px 200px;
+}
+
+
+/***** ABOUT *****/
+
+#about article{
+  display:flex;
+}
+
+#about article figure,
+#about article div {
+  width: 49%;
+}
+
+#about article div {
+  margin-bottom: 50px;
+}
+
+#about article figure {
+  margin: 0 10px 60px 100px;
+}
+
+#about figure {
+  max-width: 40%
+}
+
+#about p {
+  font-size: 1.25rem;
+}
