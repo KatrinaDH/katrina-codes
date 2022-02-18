@@ -521,8 +521,9 @@ footer .connect {
 }
 
 .gallery-image {
-  margin: 30px 0 30px 20px;
-  width: 80%;
+  margin: 30px 0 30px 0;
+  height: 155px;
+  width: 350px;
 }
 
 hr {
